@@ -23,7 +23,7 @@ const Header = () => {
                     </svg>
                 </span>
             }
-            <ul className={`md:flex absolute justify-center md:static top-[5vh] ${toggle ? 'top-[10vh]' : 'top-[-50vh]'} left-[45%] md:w-auto w-[100vh]`}>
+            <ul className={`md:flex absolute justify-center md:static top-[5vh] ${toggle ? 'top-[10vh]' : 'top-[-200px]'} left-[45%] md:w-auto w-[100vh]`}>
                 <li className='p-2'><Link to='/'>Home</Link></li>
                 <li className='p-2'><Link to='/service'>Service</Link></li>
                 <li className='p-2'><Link to='/product'>Product</Link></li>
